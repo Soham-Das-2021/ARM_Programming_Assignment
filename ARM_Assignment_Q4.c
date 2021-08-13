@@ -10,7 +10,7 @@ int main()
 		scanf("%d",&a[i]);
 	}
 	
-	for(j=0;j<19;j++)
+	for(j=0;j<19;j++)                 //Bubble Sort has been used
 	{
 		int flag=0;
 		for(k=0;k<19-j;k++)

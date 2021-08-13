@@ -12,17 +12,19 @@ int main()
 	printf("Please enter the 3rd integer:\n");
 	scanf("%d",&c);
 	
-	if(a>max)
+	if(a>b)
 	{
-		max=a;
-		if(b>max)
-		{
-			max=b;
-		}
-		if(c>max)
-		{
-			max=c;
-		}
+		if(a>c)
+		   max=a;
+		else
+		   max=c;   
+	}
+	else
+	{
+		if(b>c)
+		   max=b;
+		else
+		   max=c;   
 	}
 	
 	
